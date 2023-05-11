@@ -1,0 +1,21 @@
+[0.704s] Invoking command in '/home/hammaad/sim_ws/src/sac_agent_pkg': PYTHONPATH=/home/hammaad/sim_ws/build/sac_agent_pkg/prefix_override:/home/hammaad/sim_ws/install/sac_agent_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/sac_agent_pkg build --build-base /home/hammaad/sim_ws/build/sac_agent_pkg/build install --record /home/hammaad/sim_ws/build/sac_agent_pkg/install.log --install-scripts $base/lib/sac_agent_pkg --single-version-externally-managed
+[0.876s] running egg_info
+[0.876s] writing ../../build/sac_agent_pkg/sac_agent_pkg.egg-info/PKG-INFO
+[0.877s] writing dependency_links to ../../build/sac_agent_pkg/sac_agent_pkg.egg-info/dependency_links.txt
+[0.877s] writing entry points to ../../build/sac_agent_pkg/sac_agent_pkg.egg-info/entry_points.txt
+[0.877s] writing requirements to ../../build/sac_agent_pkg/sac_agent_pkg.egg-info/requires.txt
+[0.877s] writing top-level names to ../../build/sac_agent_pkg/sac_agent_pkg.egg-info/top_level.txt
+[0.903s] reading manifest file '../../build/sac_agent_pkg/sac_agent_pkg.egg-info/SOURCES.txt'
+[0.903s] writing manifest file '../../build/sac_agent_pkg/sac_agent_pkg.egg-info/SOURCES.txt'
+[0.903s] running build
+[0.904s] running build_py
+[0.904s] running install
+[0.904s] running install_lib
+[0.905s] running install_data
+[0.906s] running install_egg_info
+[0.907s] removing '/home/hammaad/sim_ws/install/sac_agent_pkg/lib/python3.8/site-packages/sac_agent_pkg-0.0.0-py3.8.egg-info' (and everything under it)
+[0.907s] Copying ../../build/sac_agent_pkg/sac_agent_pkg.egg-info to /home/hammaad/sim_ws/install/sac_agent_pkg/lib/python3.8/site-packages/sac_agent_pkg-0.0.0-py3.8.egg-info
+[0.908s] running install_scripts
+[0.921s] Installing sac_agent_node script to /home/hammaad/sim_ws/install/sac_agent_pkg/lib/sac_agent_pkg
+[0.921s] writing list of installed files to '/home/hammaad/sim_ws/build/sac_agent_pkg/install.log'
+[0.957s] Invoked command in '/home/hammaad/sim_ws/src/sac_agent_pkg' returned '0': PYTHONPATH=/home/hammaad/sim_ws/build/sac_agent_pkg/prefix_override:/home/hammaad/sim_ws/install/sac_agent_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/sac_agent_pkg build --build-base /home/hammaad/sim_ws/build/sac_agent_pkg/build install --record /home/hammaad/sim_ws/build/sac_agent_pkg/install.log --install-scripts $base/lib/sac_agent_pkg --single-version-externally-managed

@@ -1,0 +1,31 @@
+running egg_info
+creating ../../build/new_controller/new_controller.egg-info
+writing ../../build/new_controller/new_controller.egg-info/PKG-INFO
+writing dependency_links to ../../build/new_controller/new_controller.egg-info/dependency_links.txt
+writing entry points to ../../build/new_controller/new_controller.egg-info/entry_points.txt
+writing requirements to ../../build/new_controller/new_controller.egg-info/requires.txt
+writing top-level names to ../../build/new_controller/new_controller.egg-info/top_level.txt
+writing manifest file '../../build/new_controller/new_controller.egg-info/SOURCES.txt'
+reading manifest file '../../build/new_controller/new_controller.egg-info/SOURCES.txt'
+writing manifest file '../../build/new_controller/new_controller.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/hammaad/sim_ws/build/new_controller/build
+creating /home/hammaad/sim_ws/build/new_controller/build/lib
+creating /home/hammaad/sim_ws/build/new_controller/build/lib/new_controller
+copying new_controller/__init__.py -> /home/hammaad/sim_ws/build/new_controller/build/lib/new_controller
+running install
+running install_lib
+creating /home/hammaad/sim_ws/install/new_controller/lib/python3.8/site-packages/new_controller
+copying /home/hammaad/sim_ws/build/new_controller/build/lib/new_controller/__init__.py -> /home/hammaad/sim_ws/install/new_controller/lib/python3.8/site-packages/new_controller
+byte-compiling /home/hammaad/sim_ws/install/new_controller/lib/python3.8/site-packages/new_controller/__init__.py to __init__.cpython-38.pyc
+running install_data
+creating /home/hammaad/sim_ws/install/new_controller/share/ament_index
+creating /home/hammaad/sim_ws/install/new_controller/share/ament_index/resource_index
+creating /home/hammaad/sim_ws/install/new_controller/share/ament_index/resource_index/packages
+copying resource/new_controller -> /home/hammaad/sim_ws/install/new_controller/share/ament_index/resource_index/packages
+copying package.xml -> /home/hammaad/sim_ws/install/new_controller/share/new_controller
+running install_egg_info
+Copying ../../build/new_controller/new_controller.egg-info to /home/hammaad/sim_ws/install/new_controller/lib/python3.8/site-packages/new_controller-0.0.0-py3.8.egg-info
+running install_scripts
+writing list of installed files to '/home/hammaad/sim_ws/build/new_controller/install.log'

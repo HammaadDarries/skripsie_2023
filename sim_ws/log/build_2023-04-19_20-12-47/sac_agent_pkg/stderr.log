@@ -1,0 +1,5 @@
+  File "/home/hammaad/sim_ws/install/sac_agent_pkg/lib/python3.8/site-packages/sac_agent_pkg/sac_agent_node.py", line 49
+    def odom_callback(self, msg)
+                               ^
+SyntaxError: invalid syntax
+

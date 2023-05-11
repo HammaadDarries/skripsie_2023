@@ -1,0 +1,33 @@
+[1.090s] Invoking command in '/home/hammaad/sim_ws/src/new_controller': PYTHONPATH=/home/hammaad/sim_ws/build/new_controller/prefix_override:/home/hammaad/sim_ws/install/new_controller/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/new_controller build --build-base /home/hammaad/sim_ws/build/new_controller/build install --record /home/hammaad/sim_ws/build/new_controller/install.log --install-scripts $base/lib/new_controller --single-version-externally-managed
+[1.301s] running egg_info
+[1.301s] creating ../../build/new_controller/new_controller.egg-info
+[1.301s] writing ../../build/new_controller/new_controller.egg-info/PKG-INFO
+[1.302s] writing dependency_links to ../../build/new_controller/new_controller.egg-info/dependency_links.txt
+[1.302s] writing entry points to ../../build/new_controller/new_controller.egg-info/entry_points.txt
+[1.302s] writing requirements to ../../build/new_controller/new_controller.egg-info/requires.txt
+[1.302s] writing top-level names to ../../build/new_controller/new_controller.egg-info/top_level.txt
+[1.303s] writing manifest file '../../build/new_controller/new_controller.egg-info/SOURCES.txt'
+[1.334s] reading manifest file '../../build/new_controller/new_controller.egg-info/SOURCES.txt'
+[1.334s] writing manifest file '../../build/new_controller/new_controller.egg-info/SOURCES.txt'
+[1.334s] running build
+[1.334s] running build_py
+[1.335s] creating /home/hammaad/sim_ws/build/new_controller/build
+[1.335s] creating /home/hammaad/sim_ws/build/new_controller/build/lib
+[1.335s] creating /home/hammaad/sim_ws/build/new_controller/build/lib/new_controller
+[1.335s] copying new_controller/__init__.py -> /home/hammaad/sim_ws/build/new_controller/build/lib/new_controller
+[1.335s] running install
+[1.336s] running install_lib
+[1.337s] creating /home/hammaad/sim_ws/install/new_controller/lib/python3.8/site-packages/new_controller
+[1.337s] copying /home/hammaad/sim_ws/build/new_controller/build/lib/new_controller/__init__.py -> /home/hammaad/sim_ws/install/new_controller/lib/python3.8/site-packages/new_controller
+[1.337s] byte-compiling /home/hammaad/sim_ws/install/new_controller/lib/python3.8/site-packages/new_controller/__init__.py to __init__.cpython-38.pyc
+[1.338s] running install_data
+[1.339s] creating /home/hammaad/sim_ws/install/new_controller/share/ament_index
+[1.339s] creating /home/hammaad/sim_ws/install/new_controller/share/ament_index/resource_index
+[1.339s] creating /home/hammaad/sim_ws/install/new_controller/share/ament_index/resource_index/packages
+[1.339s] copying resource/new_controller -> /home/hammaad/sim_ws/install/new_controller/share/ament_index/resource_index/packages
+[1.339s] copying package.xml -> /home/hammaad/sim_ws/install/new_controller/share/new_controller
+[1.339s] running install_egg_info
+[1.340s] Copying ../../build/new_controller/new_controller.egg-info to /home/hammaad/sim_ws/install/new_controller/lib/python3.8/site-packages/new_controller-0.0.0-py3.8.egg-info
+[1.341s] running install_scripts
+[1.361s] writing list of installed files to '/home/hammaad/sim_ws/build/new_controller/install.log'
+[1.406s] Invoked command in '/home/hammaad/sim_ws/src/new_controller' returned '0': PYTHONPATH=/home/hammaad/sim_ws/build/new_controller/prefix_override:/home/hammaad/sim_ws/install/new_controller/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/new_controller build --build-base /home/hammaad/sim_ws/build/new_controller/build install --record /home/hammaad/sim_ws/build/new_controller/install.log --install-scripts $base/lib/new_controller --single-version-externally-managed

@@ -1,0 +1,316 @@
+[0.298s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.298s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f9bc1f59760>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=6, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f9bc1f59760>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f9bc1f59cd0>)
+[0.324s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.324s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.324s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.324s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.324s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.324s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.324s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/hammaad/sim_ws'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(PLOTS) by extensions ['ignore', 'ignore_ament_install']
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(PLOTS) by extension 'ignore'
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(PLOTS) by extension 'ignore_ament_install'
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(PLOTS) by extensions ['colcon_pkg']
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(PLOTS) by extension 'colcon_pkg'
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(PLOTS) by extensions ['colcon_meta']
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(PLOTS) by extension 'colcon_meta'
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(PLOTS) by extensions ['ros']
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(PLOTS) by extension 'ros'
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(PLOTS) by extensions ['cmake', 'python']
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(PLOTS) by extension 'cmake'
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(PLOTS) by extension 'python'
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(PLOTS) by extensions ['python_setup_py']
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(PLOTS) by extension 'python_setup_py'
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(PLOTS/MAX_SPEED_3) by extensions ['ignore', 'ignore_ament_install']
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(PLOTS/MAX_SPEED_3) by extension 'ignore'
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(PLOTS/MAX_SPEED_3) by extension 'ignore_ament_install'
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(PLOTS/MAX_SPEED_3) by extensions ['colcon_pkg']
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(PLOTS/MAX_SPEED_3) by extension 'colcon_pkg'
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(PLOTS/MAX_SPEED_3) by extensions ['colcon_meta']
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(PLOTS/MAX_SPEED_3) by extension 'colcon_meta'
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(PLOTS/MAX_SPEED_3) by extensions ['ros']
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(PLOTS/MAX_SPEED_3) by extension 'ros'
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(PLOTS/MAX_SPEED_3) by extensions ['cmake', 'python']
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(PLOTS/MAX_SPEED_3) by extension 'cmake'
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(PLOTS/MAX_SPEED_3) by extension 'python'
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(PLOTS/MAX_SPEED_3) by extensions ['python_setup_py']
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(PLOTS/MAX_SPEED_3) by extension 'python_setup_py'
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(PLOTS/MAX_SPEED_3/Std = 0.01) by extensions ['ignore', 'ignore_ament_install']
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(PLOTS/MAX_SPEED_3/Std = 0.01) by extension 'ignore'
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(PLOTS/MAX_SPEED_3/Std = 0.01) by extension 'ignore_ament_install'
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(PLOTS/MAX_SPEED_3/Std = 0.01) by extensions ['colcon_pkg']
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(PLOTS/MAX_SPEED_3/Std = 0.01) by extension 'colcon_pkg'
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(PLOTS/MAX_SPEED_3/Std = 0.01) by extensions ['colcon_meta']
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(PLOTS/MAX_SPEED_3/Std = 0.01) by extension 'colcon_meta'
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(PLOTS/MAX_SPEED_3/Std = 0.01) by extensions ['ros']
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(PLOTS/MAX_SPEED_3/Std = 0.01) by extension 'ros'
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(PLOTS/MAX_SPEED_3/Std = 0.01) by extensions ['cmake', 'python']
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(PLOTS/MAX_SPEED_3/Std = 0.01) by extension 'cmake'
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(PLOTS/MAX_SPEED_3/Std = 0.01) by extension 'python'
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(PLOTS/MAX_SPEED_3/Std = 0.01) by extensions ['python_setup_py']
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(PLOTS/MAX_SPEED_3/Std = 0.01) by extension 'python_setup_py'
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(PLOTS/MAX_SPEED_3/Std = 0.02) by extensions ['ignore', 'ignore_ament_install']
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(PLOTS/MAX_SPEED_3/Std = 0.02) by extension 'ignore'
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(PLOTS/MAX_SPEED_3/Std = 0.02) by extension 'ignore_ament_install'
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(PLOTS/MAX_SPEED_3/Std = 0.02) by extensions ['colcon_pkg']
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(PLOTS/MAX_SPEED_3/Std = 0.02) by extension 'colcon_pkg'
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(PLOTS/MAX_SPEED_3/Std = 0.02) by extensions ['colcon_meta']
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(PLOTS/MAX_SPEED_3/Std = 0.02) by extension 'colcon_meta'
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(PLOTS/MAX_SPEED_3/Std = 0.02) by extensions ['ros']
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(PLOTS/MAX_SPEED_3/Std = 0.02) by extension 'ros'
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(PLOTS/MAX_SPEED_3/Std = 0.02) by extensions ['cmake', 'python']
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(PLOTS/MAX_SPEED_3/Std = 0.02) by extension 'cmake'
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(PLOTS/MAX_SPEED_3/Std = 0.02) by extension 'python'
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(PLOTS/MAX_SPEED_3/Std = 0.02) by extensions ['python_setup_py']
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(PLOTS/MAX_SPEED_3/Std = 0.02) by extension 'python_setup_py'
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(PLOTS/MAX_SPEED_3/Std = 0.05) by extensions ['ignore', 'ignore_ament_install']
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(PLOTS/MAX_SPEED_3/Std = 0.05) by extension 'ignore'
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(PLOTS/MAX_SPEED_3/Std = 0.05) by extension 'ignore_ament_install'
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(PLOTS/MAX_SPEED_3/Std = 0.05) by extensions ['colcon_pkg']
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(PLOTS/MAX_SPEED_3/Std = 0.05) by extension 'colcon_pkg'
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(PLOTS/MAX_SPEED_3/Std = 0.05) by extensions ['colcon_meta']
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(PLOTS/MAX_SPEED_3/Std = 0.05) by extension 'colcon_meta'
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(PLOTS/MAX_SPEED_3/Std = 0.05) by extensions ['ros']
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(PLOTS/MAX_SPEED_3/Std = 0.05) by extension 'ros'
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(PLOTS/MAX_SPEED_3/Std = 0.05) by extensions ['cmake', 'python']
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(PLOTS/MAX_SPEED_3/Std = 0.05) by extension 'cmake'
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(PLOTS/MAX_SPEED_3/Std = 0.05) by extension 'python'
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(PLOTS/MAX_SPEED_3/Std = 0.05) by extensions ['python_setup_py']
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(PLOTS/MAX_SPEED_3/Std = 0.05) by extension 'python_setup_py'
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(PLOTS/MAX_SPEED_3/Std = 0.1) by extensions ['ignore', 'ignore_ament_install']
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(PLOTS/MAX_SPEED_3/Std = 0.1) by extension 'ignore'
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(PLOTS/MAX_SPEED_3/Std = 0.1) by extension 'ignore_ament_install'
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(PLOTS/MAX_SPEED_3/Std = 0.1) by extensions ['colcon_pkg']
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(PLOTS/MAX_SPEED_3/Std = 0.1) by extension 'colcon_pkg'
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(PLOTS/MAX_SPEED_3/Std = 0.1) by extensions ['colcon_meta']
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(PLOTS/MAX_SPEED_3/Std = 0.1) by extension 'colcon_meta'
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(PLOTS/MAX_SPEED_3/Std = 0.1) by extensions ['ros']
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(PLOTS/MAX_SPEED_3/Std = 0.1) by extension 'ros'
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(PLOTS/MAX_SPEED_3/Std = 0.1) by extensions ['cmake', 'python']
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(PLOTS/MAX_SPEED_3/Std = 0.1) by extension 'cmake'
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(PLOTS/MAX_SPEED_3/Std = 0.1) by extension 'python'
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(PLOTS/MAX_SPEED_3/Std = 0.1) by extensions ['python_setup_py']
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(PLOTS/MAX_SPEED_3/Std = 0.1) by extension 'python_setup_py'
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_gym_ros) by extensions ['ignore', 'ignore_ament_install']
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_gym_ros) by extension 'ignore'
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_gym_ros) by extension 'ignore_ament_install'
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_gym_ros) by extensions ['colcon_pkg']
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_gym_ros) by extension 'colcon_pkg'
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_gym_ros) by extensions ['colcon_meta']
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_gym_ros) by extension 'colcon_meta'
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_gym_ros) by extensions ['ros']
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_gym_ros) by extension 'ros'
+[0.348s] DEBUG:colcon.colcon_core.package_identification:Package 'src/f1tenth_gym_ros' with type 'ros.ament_python' and name 'f1tenth_gym_ros'
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(src/new_controller) by extensions ['ignore', 'ignore_ament_install']
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(src/new_controller) by extension 'ignore'
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(src/new_controller) by extension 'ignore_ament_install'
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(src/new_controller) by extensions ['colcon_pkg']
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(src/new_controller) by extension 'colcon_pkg'
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(src/new_controller) by extensions ['colcon_meta']
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(src/new_controller) by extension 'colcon_meta'
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(src/new_controller) by extensions ['ros']
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(src/new_controller) by extension 'ros'
+[0.349s] DEBUG:colcon.colcon_core.package_identification:Package 'src/new_controller' with type 'ros.ament_python' and name 'new_controller'
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(src/sac_agent_pkg) by extensions ['ignore', 'ignore_ament_install']
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(src/sac_agent_pkg) by extension 'ignore'
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(src/sac_agent_pkg) by extension 'ignore_ament_install'
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(src/sac_agent_pkg) by extensions ['colcon_pkg']
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(src/sac_agent_pkg) by extension 'colcon_pkg'
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(src/sac_agent_pkg) by extensions ['colcon_meta']
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(src/sac_agent_pkg) by extension 'colcon_meta'
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(src/sac_agent_pkg) by extensions ['ros']
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(src/sac_agent_pkg) by extension 'ros'
+[0.350s] DEBUG:colcon.colcon_core.package_identification:Package 'src/sac_agent_pkg' with type 'ros.ament_python' and name 'sac_agent_pkg'
+[0.350s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.350s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.350s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.350s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.350s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.367s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.367s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.371s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 265 installed packages in /opt/ros/foxy
+[0.372s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.433s] Level 5:colcon.colcon_core.verb:set package 'f1tenth_gym_ros' build argument 'cmake_args' from command line to 'None'
+[0.434s] Level 5:colcon.colcon_core.verb:set package 'f1tenth_gym_ros' build argument 'cmake_target' from command line to 'None'
+[0.434s] Level 5:colcon.colcon_core.verb:set package 'f1tenth_gym_ros' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.434s] Level 5:colcon.colcon_core.verb:set package 'f1tenth_gym_ros' build argument 'cmake_clean_cache' from command line to 'False'
+[0.434s] Level 5:colcon.colcon_core.verb:set package 'f1tenth_gym_ros' build argument 'cmake_clean_first' from command line to 'False'
+[0.434s] Level 5:colcon.colcon_core.verb:set package 'f1tenth_gym_ros' build argument 'cmake_force_configure' from command line to 'False'
+[0.434s] Level 5:colcon.colcon_core.verb:set package 'f1tenth_gym_ros' build argument 'ament_cmake_args' from command line to 'None'
+[0.434s] Level 5:colcon.colcon_core.verb:set package 'f1tenth_gym_ros' build argument 'catkin_cmake_args' from command line to 'None'
+[0.434s] Level 5:colcon.colcon_core.verb:set package 'f1tenth_gym_ros' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.434s] DEBUG:colcon.colcon_core.verb:Building package 'f1tenth_gym_ros' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/hammaad/sim_ws/build/f1tenth_gym_ros', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/hammaad/sim_ws/install/f1tenth_gym_ros', 'merge_install': False, 'path': '/home/hammaad/sim_ws/src/f1tenth_gym_ros', 'symlink_install': False, 'test_result_base': None}
+[0.434s] Level 5:colcon.colcon_core.verb:set package 'new_controller' build argument 'cmake_args' from command line to 'None'
+[0.435s] Level 5:colcon.colcon_core.verb:set package 'new_controller' build argument 'cmake_target' from command line to 'None'
+[0.435s] Level 5:colcon.colcon_core.verb:set package 'new_controller' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.435s] Level 5:colcon.colcon_core.verb:set package 'new_controller' build argument 'cmake_clean_cache' from command line to 'False'
+[0.435s] Level 5:colcon.colcon_core.verb:set package 'new_controller' build argument 'cmake_clean_first' from command line to 'False'
+[0.435s] Level 5:colcon.colcon_core.verb:set package 'new_controller' build argument 'cmake_force_configure' from command line to 'False'
+[0.435s] Level 5:colcon.colcon_core.verb:set package 'new_controller' build argument 'ament_cmake_args' from command line to 'None'
+[0.435s] Level 5:colcon.colcon_core.verb:set package 'new_controller' build argument 'catkin_cmake_args' from command line to 'None'
+[0.435s] Level 5:colcon.colcon_core.verb:set package 'new_controller' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.435s] DEBUG:colcon.colcon_core.verb:Building package 'new_controller' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/hammaad/sim_ws/build/new_controller', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/hammaad/sim_ws/install/new_controller', 'merge_install': False, 'path': '/home/hammaad/sim_ws/src/new_controller', 'symlink_install': False, 'test_result_base': None}
+[0.435s] Level 5:colcon.colcon_core.verb:set package 'sac_agent_pkg' build argument 'cmake_args' from command line to 'None'
+[0.435s] Level 5:colcon.colcon_core.verb:set package 'sac_agent_pkg' build argument 'cmake_target' from command line to 'None'
+[0.435s] Level 5:colcon.colcon_core.verb:set package 'sac_agent_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.436s] Level 5:colcon.colcon_core.verb:set package 'sac_agent_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[0.436s] Level 5:colcon.colcon_core.verb:set package 'sac_agent_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[0.436s] Level 5:colcon.colcon_core.verb:set package 'sac_agent_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[0.436s] Level 5:colcon.colcon_core.verb:set package 'sac_agent_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[0.436s] Level 5:colcon.colcon_core.verb:set package 'sac_agent_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[0.436s] Level 5:colcon.colcon_core.verb:set package 'sac_agent_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.436s] DEBUG:colcon.colcon_core.verb:Building package 'sac_agent_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/hammaad/sim_ws/build/sac_agent_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/hammaad/sim_ws/install/sac_agent_pkg', 'merge_install': False, 'path': '/home/hammaad/sim_ws/src/sac_agent_pkg', 'symlink_install': False, 'test_result_base': None}
+[0.436s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.439s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.439s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/hammaad/sim_ws/src/f1tenth_gym_ros' with build type 'ament_python'
+[0.439s] Level 1:colcon.colcon_core.shell:create_environment_hook('f1tenth_gym_ros', 'ament_prefix_path')
+[0.444s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.444s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hammaad/sim_ws/install/f1tenth_gym_ros/share/f1tenth_gym_ros/hook/ament_prefix_path.ps1'
+[0.445s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hammaad/sim_ws/install/f1tenth_gym_ros/share/f1tenth_gym_ros/hook/ament_prefix_path.dsv'
+[0.445s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hammaad/sim_ws/install/f1tenth_gym_ros/share/f1tenth_gym_ros/hook/ament_prefix_path.sh'
+[0.447s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.447s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.451s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/hammaad/sim_ws/src/new_controller' with build type 'ament_python'
+[0.451s] Level 1:colcon.colcon_core.shell:create_environment_hook('new_controller', 'ament_prefix_path')
+[0.453s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hammaad/sim_ws/install/new_controller/share/new_controller/hook/ament_prefix_path.ps1'
+[0.454s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hammaad/sim_ws/install/new_controller/share/new_controller/hook/ament_prefix_path.dsv'
+[0.454s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hammaad/sim_ws/install/new_controller/share/new_controller/hook/ament_prefix_path.sh'
+[0.455s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.455s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.459s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/hammaad/sim_ws/src/sac_agent_pkg' with build type 'ament_python'
+[0.459s] Level 1:colcon.colcon_core.shell:create_environment_hook('sac_agent_pkg', 'ament_prefix_path')
+[0.460s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hammaad/sim_ws/install/sac_agent_pkg/share/sac_agent_pkg/hook/ament_prefix_path.ps1'
+[0.461s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hammaad/sim_ws/install/sac_agent_pkg/share/sac_agent_pkg/hook/ament_prefix_path.dsv'
+[0.461s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hammaad/sim_ws/install/sac_agent_pkg/share/sac_agent_pkg/hook/ament_prefix_path.sh'
+[0.463s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.463s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.653s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/hammaad/sim_ws/src/f1tenth_gym_ros'
+[0.654s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.654s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.837s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/hammaad/sim_ws/src/new_controller'
+[0.839s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.839s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.020s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/hammaad/sim_ws/src/sac_agent_pkg'
+[1.022s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.022s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.399s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hammaad/sim_ws/build/f1tenth_gym_ros': PYTHONPATH=/home/hammaad/sim_ws/build/f1tenth_gym_ros/prefix_override:/home/hammaad/sim_ws/install/f1tenth_gym_ros/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/hammaad/sim_ws/build/f1tenth_gym_ros/build
+[1.403s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hammaad/sim_ws/build/new_controller': PYTHONPATH=/home/hammaad/sim_ws/build/new_controller/prefix_override:/home/hammaad/sim_ws/install/new_controller/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/hammaad/sim_ws/build/new_controller/build
+[1.405s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hammaad/sim_ws/build/sac_agent_pkg': PYTHONPATH=/home/hammaad/sim_ws/build/sac_agent_pkg/prefix_override:/home/hammaad/sim_ws/install/sac_agent_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/hammaad/sim_ws/build/sac_agent_pkg/build
+[1.761s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hammaad/sim_ws/build/sac_agent_pkg' returned '0': PYTHONPATH=/home/hammaad/sim_ws/build/sac_agent_pkg/prefix_override:/home/hammaad/sim_ws/install/sac_agent_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/hammaad/sim_ws/build/sac_agent_pkg/build
+[1.763s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hammaad/sim_ws/src/sac_agent_pkg': PYTHONPATH=/home/hammaad/sim_ws/build/sac_agent_pkg/prefix_override:/home/hammaad/sim_ws/install/sac_agent_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/sac_agent_pkg build --build-base /home/hammaad/sim_ws/build/sac_agent_pkg/build install --record /home/hammaad/sim_ws/build/sac_agent_pkg/install.log --install-scripts $base/lib/sac_agent_pkg --single-version-externally-managed
+[1.765s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hammaad/sim_ws/build/new_controller' returned '0': PYTHONPATH=/home/hammaad/sim_ws/build/new_controller/prefix_override:/home/hammaad/sim_ws/install/new_controller/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/hammaad/sim_ws/build/new_controller/build
+[1.767s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hammaad/sim_ws/src/new_controller': PYTHONPATH=/home/hammaad/sim_ws/build/new_controller/prefix_override:/home/hammaad/sim_ws/install/new_controller/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/new_controller build --build-base /home/hammaad/sim_ws/build/new_controller/build install --record /home/hammaad/sim_ws/build/new_controller/install.log --install-scripts $base/lib/new_controller --single-version-externally-managed
+[1.769s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hammaad/sim_ws/build/f1tenth_gym_ros' returned '0': PYTHONPATH=/home/hammaad/sim_ws/build/f1tenth_gym_ros/prefix_override:/home/hammaad/sim_ws/install/f1tenth_gym_ros/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/hammaad/sim_ws/build/f1tenth_gym_ros/build
+[1.772s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hammaad/sim_ws/src/f1tenth_gym_ros': PYTHONPATH=/home/hammaad/sim_ws/build/f1tenth_gym_ros/prefix_override:/home/hammaad/sim_ws/install/f1tenth_gym_ros/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/f1tenth_gym_ros build --build-base /home/hammaad/sim_ws/build/f1tenth_gym_ros/build install --record /home/hammaad/sim_ws/build/f1tenth_gym_ros/install.log --install-scripts $base/lib/f1tenth_gym_ros --single-version-externally-managed
+[2.027s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hammaad/sim_ws/src/sac_agent_pkg' returned '0': PYTHONPATH=/home/hammaad/sim_ws/build/sac_agent_pkg/prefix_override:/home/hammaad/sim_ws/install/sac_agent_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/sac_agent_pkg build --build-base /home/hammaad/sim_ws/build/sac_agent_pkg/build install --record /home/hammaad/sim_ws/build/sac_agent_pkg/install.log --install-scripts $base/lib/sac_agent_pkg --single-version-externally-managed
+[2.034s] Level 1:colcon.colcon_core.environment:checking '/home/hammaad/sim_ws/install/sac_agent_pkg' for CMake module files
+[2.034s] Level 1:colcon.colcon_core.environment:checking '/home/hammaad/sim_ws/install/sac_agent_pkg' for CMake config files
+[2.035s] Level 1:colcon.colcon_core.environment:checking '/home/hammaad/sim_ws/install/sac_agent_pkg/lib'
+[2.035s] Level 1:colcon.colcon_core.environment:checking '/home/hammaad/sim_ws/install/sac_agent_pkg/bin'
+[2.035s] Level 1:colcon.colcon_core.environment:checking '/home/hammaad/sim_ws/install/sac_agent_pkg/lib/pkgconfig/sac_agent_pkg.pc'
+[2.035s] Level 1:colcon.colcon_core.environment:checking '/home/hammaad/sim_ws/install/sac_agent_pkg/lib/python3.8/site-packages'
+[2.035s] Level 1:colcon.colcon_core.shell:create_environment_hook('sac_agent_pkg', 'pythonpath')
+[2.036s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hammaad/sim_ws/install/sac_agent_pkg/share/sac_agent_pkg/hook/pythonpath.ps1'
+[2.037s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hammaad/sim_ws/install/sac_agent_pkg/share/sac_agent_pkg/hook/pythonpath.dsv'
+[2.037s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hammaad/sim_ws/install/sac_agent_pkg/share/sac_agent_pkg/hook/pythonpath.sh'
+[2.038s] Level 1:colcon.colcon_core.environment:checking '/home/hammaad/sim_ws/install/sac_agent_pkg/bin'
+[2.038s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sac_agent_pkg)
+[2.039s] INFO:colcon.colcon_core.shell:Creating package script '/home/hammaad/sim_ws/install/sac_agent_pkg/share/sac_agent_pkg/package.ps1'
+[2.039s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/hammaad/sim_ws/install/sac_agent_pkg/share/sac_agent_pkg/package.dsv'
+[2.040s] INFO:colcon.colcon_core.shell:Creating package script '/home/hammaad/sim_ws/install/sac_agent_pkg/share/sac_agent_pkg/package.sh'
+[2.041s] INFO:colcon.colcon_core.shell:Creating package script '/home/hammaad/sim_ws/install/sac_agent_pkg/share/sac_agent_pkg/package.bash'
+[2.041s] INFO:colcon.colcon_core.shell:Creating package script '/home/hammaad/sim_ws/install/sac_agent_pkg/share/sac_agent_pkg/package.zsh'
+[2.042s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/hammaad/sim_ws/install/sac_agent_pkg/share/colcon-core/packages/sac_agent_pkg)
+[2.045s] Level 1:colcon.colcon_core.environment:checking '/home/hammaad/sim_ws/install/new_controller' for CMake module files
+[2.045s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hammaad/sim_ws/src/new_controller' returned '0': PYTHONPATH=/home/hammaad/sim_ws/build/new_controller/prefix_override:/home/hammaad/sim_ws/install/new_controller/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/new_controller build --build-base /home/hammaad/sim_ws/build/new_controller/build install --record /home/hammaad/sim_ws/build/new_controller/install.log --install-scripts $base/lib/new_controller --single-version-externally-managed
+[2.045s] Level 1:colcon.colcon_core.environment:checking '/home/hammaad/sim_ws/install/new_controller' for CMake config files
+[2.046s] Level 1:colcon.colcon_core.environment:checking '/home/hammaad/sim_ws/install/new_controller/lib'
+[2.046s] Level 1:colcon.colcon_core.environment:checking '/home/hammaad/sim_ws/install/new_controller/bin'
+[2.046s] Level 1:colcon.colcon_core.environment:checking '/home/hammaad/sim_ws/install/new_controller/lib/pkgconfig/new_controller.pc'
+[2.046s] Level 1:colcon.colcon_core.environment:checking '/home/hammaad/sim_ws/install/new_controller/lib/python3.8/site-packages'
+[2.046s] Level 1:colcon.colcon_core.shell:create_environment_hook('new_controller', 'pythonpath')
+[2.047s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hammaad/sim_ws/install/new_controller/share/new_controller/hook/pythonpath.ps1'
+[2.047s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hammaad/sim_ws/install/new_controller/share/new_controller/hook/pythonpath.dsv'
+[2.048s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hammaad/sim_ws/install/new_controller/share/new_controller/hook/pythonpath.sh'
+[2.048s] Level 1:colcon.colcon_core.environment:checking '/home/hammaad/sim_ws/install/new_controller/bin'
+[2.048s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(new_controller)
+[2.049s] INFO:colcon.colcon_core.shell:Creating package script '/home/hammaad/sim_ws/install/new_controller/share/new_controller/package.ps1'
+[2.050s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/hammaad/sim_ws/install/new_controller/share/new_controller/package.dsv'
+[2.050s] INFO:colcon.colcon_core.shell:Creating package script '/home/hammaad/sim_ws/install/new_controller/share/new_controller/package.sh'
+[2.050s] INFO:colcon.colcon_core.shell:Creating package script '/home/hammaad/sim_ws/install/new_controller/share/new_controller/package.bash'
+[2.050s] INFO:colcon.colcon_core.shell:Creating package script '/home/hammaad/sim_ws/install/new_controller/share/new_controller/package.zsh'
+[2.051s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/hammaad/sim_ws/install/new_controller/share/colcon-core/packages/new_controller)
+[2.052s] Level 1:colcon.colcon_core.environment:checking '/home/hammaad/sim_ws/install/f1tenth_gym_ros' for CMake module files
+[2.053s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hammaad/sim_ws/src/f1tenth_gym_ros' returned '0': PYTHONPATH=/home/hammaad/sim_ws/build/f1tenth_gym_ros/prefix_override:/home/hammaad/sim_ws/install/f1tenth_gym_ros/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/f1tenth_gym_ros build --build-base /home/hammaad/sim_ws/build/f1tenth_gym_ros/build install --record /home/hammaad/sim_ws/build/f1tenth_gym_ros/install.log --install-scripts $base/lib/f1tenth_gym_ros --single-version-externally-managed
+[2.053s] Level 1:colcon.colcon_core.environment:checking '/home/hammaad/sim_ws/install/f1tenth_gym_ros' for CMake config files
+[2.054s] Level 1:colcon.colcon_core.environment:checking '/home/hammaad/sim_ws/install/f1tenth_gym_ros/lib'
+[2.054s] Level 1:colcon.colcon_core.environment:checking '/home/hammaad/sim_ws/install/f1tenth_gym_ros/bin'
+[2.054s] Level 1:colcon.colcon_core.environment:checking '/home/hammaad/sim_ws/install/f1tenth_gym_ros/lib/pkgconfig/f1tenth_gym_ros.pc'
+[2.054s] Level 1:colcon.colcon_core.environment:checking '/home/hammaad/sim_ws/install/f1tenth_gym_ros/lib/python3.8/site-packages'
+[2.054s] Level 1:colcon.colcon_core.shell:create_environment_hook('f1tenth_gym_ros', 'pythonpath')
+[2.055s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hammaad/sim_ws/install/f1tenth_gym_ros/share/f1tenth_gym_ros/hook/pythonpath.ps1'
+[2.055s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hammaad/sim_ws/install/f1tenth_gym_ros/share/f1tenth_gym_ros/hook/pythonpath.dsv'
+[2.056s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hammaad/sim_ws/install/f1tenth_gym_ros/share/f1tenth_gym_ros/hook/pythonpath.sh'
+[2.056s] Level 1:colcon.colcon_core.environment:checking '/home/hammaad/sim_ws/install/f1tenth_gym_ros/bin'
+[2.056s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(f1tenth_gym_ros)
+[2.057s] INFO:colcon.colcon_core.shell:Creating package script '/home/hammaad/sim_ws/install/f1tenth_gym_ros/share/f1tenth_gym_ros/package.ps1'
+[2.058s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/hammaad/sim_ws/install/f1tenth_gym_ros/share/f1tenth_gym_ros/package.dsv'
+[2.058s] INFO:colcon.colcon_core.shell:Creating package script '/home/hammaad/sim_ws/install/f1tenth_gym_ros/share/f1tenth_gym_ros/package.sh'
+[2.059s] INFO:colcon.colcon_core.shell:Creating package script '/home/hammaad/sim_ws/install/f1tenth_gym_ros/share/f1tenth_gym_ros/package.bash'
+[2.059s] INFO:colcon.colcon_core.shell:Creating package script '/home/hammaad/sim_ws/install/f1tenth_gym_ros/share/f1tenth_gym_ros/package.zsh'
+[2.059s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/hammaad/sim_ws/install/f1tenth_gym_ros/share/colcon-core/packages/f1tenth_gym_ros)
+[2.060s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[2.060s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[2.060s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[2.060s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[2.065s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[2.065s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[2.065s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[2.084s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[2.086s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/hammaad/sim_ws/install/local_setup.ps1'
+[2.087s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/hammaad/sim_ws/install/_local_setup_util_ps1.py'
+[2.089s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/hammaad/sim_ws/install/setup.ps1'
+[2.090s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/hammaad/sim_ws/install/local_setup.sh'
+[2.095s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/hammaad/sim_ws/install/_local_setup_util_sh.py'
+[2.095s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/hammaad/sim_ws/install/setup.sh'
+[2.097s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/hammaad/sim_ws/install/local_setup.bash'
+[2.097s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/hammaad/sim_ws/install/setup.bash'
+[2.098s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/hammaad/sim_ws/install/local_setup.zsh'
+[2.099s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/hammaad/sim_ws/install/setup.zsh'

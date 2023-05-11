@@ -1,0 +1,3 @@
+[console_scripts]
+sac_agent_node = sac_agent_pkg.sac_agent_node:main
+

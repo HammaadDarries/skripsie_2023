@@ -1,0 +1,2 @@
+Invoking command in '/home/hammaad/sim_ws/build/sac_agent': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/hammaad/sim_ws/src/sac_agent -DCMAKE_INSTALL_PREFIX=/home/hammaad/sim_ws/install/sac_agent
+Invoked command in '/home/hammaad/sim_ws/build/sac_agent' returned '1': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/hammaad/sim_ws/src/sac_agent -DCMAKE_INSTALL_PREFIX=/home/hammaad/sim_ws/install/sac_agent

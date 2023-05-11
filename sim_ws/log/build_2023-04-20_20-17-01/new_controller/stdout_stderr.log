@@ -1,0 +1,15 @@
+running develop
+running egg_info
+writing new_controller.egg-info/PKG-INFO
+writing dependency_links to new_controller.egg-info/dependency_links.txt
+writing entry points to new_controller.egg-info/entry_points.txt
+writing requirements to new_controller.egg-info/requires.txt
+writing top-level names to new_controller.egg-info/top_level.txt
+reading manifest file 'new_controller.egg-info/SOURCES.txt'
+writing manifest file 'new_controller.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/hammaad/sim_ws/install/new_controller/lib/python3.8/site-packages/site.py
+Creating /home/hammaad/sim_ws/install/new_controller/lib/python3.8/site-packages/new-controller.egg-link (link to .)
+
+Installed /home/hammaad/sim_ws/build/new_controller
+running install_data

@@ -1,0 +1,24 @@
+[3.252s] Invoking command in '/home/hammaad/sim_ws/build/f1tenth_gym_ros': PYTHONPATH=/home/hammaad/sim_ws/build/f1tenth_gym_ros/prefix_override:/home/hammaad/sim_ws/install/f1tenth_gym_ros/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/hammaad/sim_ws/build/f1tenth_gym_ros/build
+[3.809s] running develop
+[4.246s] Invoked command in '/home/hammaad/sim_ws/build/f1tenth_gym_ros' returned '0': PYTHONPATH=/home/hammaad/sim_ws/build/f1tenth_gym_ros/prefix_override:/home/hammaad/sim_ws/install/f1tenth_gym_ros/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/hammaad/sim_ws/build/f1tenth_gym_ros/build
+[4.254s] Invoking command in '/home/hammaad/sim_ws/src/f1tenth_gym_ros': PYTHONPATH=/home/hammaad/sim_ws/build/f1tenth_gym_ros/prefix_override:/home/hammaad/sim_ws/install/f1tenth_gym_ros/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/f1tenth_gym_ros build --build-base /home/hammaad/sim_ws/build/f1tenth_gym_ros/build install --record /home/hammaad/sim_ws/build/f1tenth_gym_ros/install.log --install-scripts $base/lib/f1tenth_gym_ros --single-version-externally-managed
+[4.705s] running egg_info
+[4.710s] writing ../../build/f1tenth_gym_ros/f1tenth_gym_ros.egg-info/PKG-INFO
+[4.749s] writing dependency_links to ../../build/f1tenth_gym_ros/f1tenth_gym_ros.egg-info/dependency_links.txt
+[4.749s] writing entry points to ../../build/f1tenth_gym_ros/f1tenth_gym_ros.egg-info/entry_points.txt
+[4.750s] writing requirements to ../../build/f1tenth_gym_ros/f1tenth_gym_ros.egg-info/requires.txt
+[4.750s] writing top-level names to ../../build/f1tenth_gym_ros/f1tenth_gym_ros.egg-info/top_level.txt
+[5.012s] reading manifest file '../../build/f1tenth_gym_ros/f1tenth_gym_ros.egg-info/SOURCES.txt'
+[5.044s] writing manifest file '../../build/f1tenth_gym_ros/f1tenth_gym_ros.egg-info/SOURCES.txt'
+[5.058s] running build
+[5.058s] running build_py
+[5.059s] running install
+[5.063s] running install_lib
+[5.064s] running install_data
+[5.064s] running install_egg_info
+[5.067s] removing '/home/hammaad/sim_ws/install/f1tenth_gym_ros/lib/python3.8/site-packages/f1tenth_gym_ros-0.0.0-py3.8.egg-info' (and everything under it)
+[5.067s] Copying ../../build/f1tenth_gym_ros/f1tenth_gym_ros.egg-info to /home/hammaad/sim_ws/install/f1tenth_gym_ros/lib/python3.8/site-packages/f1tenth_gym_ros-0.0.0-py3.8.egg-info
+[5.077s] running install_scripts
+[5.127s] Installing gym_bridge script to /home/hammaad/sim_ws/install/f1tenth_gym_ros/lib/f1tenth_gym_ros
+[5.136s] writing list of installed files to '/home/hammaad/sim_ws/build/f1tenth_gym_ros/install.log'
+[5.308s] Invoked command in '/home/hammaad/sim_ws/src/f1tenth_gym_ros' returned '0': PYTHONPATH=/home/hammaad/sim_ws/build/f1tenth_gym_ros/prefix_override:/home/hammaad/sim_ws/install/f1tenth_gym_ros/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/f1tenth_gym_ros build --build-base /home/hammaad/sim_ws/build/f1tenth_gym_ros/build install --record /home/hammaad/sim_ws/build/f1tenth_gym_ros/install.log --install-scripts $base/lib/f1tenth_gym_ros --single-version-externally-managed

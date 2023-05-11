@@ -1,0 +1,24 @@
+running develop
+running egg_info
+writing ../../build/sac_agent_pkg/sac_agent_pkg.egg-info/PKG-INFO
+writing dependency_links to ../../build/sac_agent_pkg/sac_agent_pkg.egg-info/dependency_links.txt
+writing entry points to ../../build/sac_agent_pkg/sac_agent_pkg.egg-info/entry_points.txt
+writing requirements to ../../build/sac_agent_pkg/sac_agent_pkg.egg-info/requires.txt
+writing top-level names to ../../build/sac_agent_pkg/sac_agent_pkg.egg-info/top_level.txt
+reading manifest file '../../build/sac_agent_pkg/sac_agent_pkg.egg-info/SOURCES.txt'
+writing manifest file '../../build/sac_agent_pkg/sac_agent_pkg.egg-info/SOURCES.txt'
+running build
+running build_py
+copying sac_agent_pkg/sac_agent_node.py -> /home/hammaad/sim_ws/build/sac_agent_pkg/build/lib/sac_agent_pkg
+running install
+running install_lib
+copying /home/hammaad/sim_ws/build/sac_agent_pkg/build/lib/sac_agent_pkg/sac_agent_node.py -> /home/hammaad/sim_ws/install/sac_agent_pkg/lib/python3.8/site-packages/sac_agent_pkg
+byte-compiling /home/hammaad/sim_ws/install/sac_agent_pkg/lib/python3.8/site-packages/sac_agent_pkg/sac_agent_node.py to sac_agent_node.cpython-38.pyc
+Sorry: IndentationError: expected an indented block (sac_agent_node.py, line 109)
+running install_data
+running install_egg_info
+removing '/home/hammaad/sim_ws/install/sac_agent_pkg/lib/python3.8/site-packages/sac_agent_pkg-0.0.0-py3.8.egg-info' (and everything under it)
+Copying ../../build/sac_agent_pkg/sac_agent_pkg.egg-info to /home/hammaad/sim_ws/install/sac_agent_pkg/lib/python3.8/site-packages/sac_agent_pkg-0.0.0-py3.8.egg-info
+running install_scripts
+Installing sac_agent_node script to /home/hammaad/sim_ws/install/sac_agent_pkg/lib/sac_agent_pkg
+writing list of installed files to '/home/hammaad/sim_ws/build/sac_agent_pkg/install.log'
